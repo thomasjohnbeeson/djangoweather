@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+# Create your views here, trololol.
 
 def home(request): #home corresponds with the home.html file
 	return render(request, "home.html", {}) # here we return the request and thge address (home.html), and a dictionnary
